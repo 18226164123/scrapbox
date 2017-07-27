@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+/* css reset www.admin10000.com */  
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin:0; padding:0; }   
+body { background:#fff; color:#555; font-size:14px; font-family: Verdana, Arial, Helvetica, sans-serif; }   
+td,th,caption { font-size:14px; }   
+h1, h2, h3, h4, h5, h6 { font-weight:normal; font-size:100%; }   
+address, caption, cite, code, dfn, em, strong, th, var { font-style:normal; font-weight:normal;}   
+a { color:#555; text-decoration:none; }   
+a:hover { text-decoration:underline; }   
+img { border:none; }   
+ol,ul,li { list-style:none; }   
+input, textarea, select, button { font:14px Verdana,Helvetica,Arial,sans-serif; }   
+table { border-collapse:collapse; }   
+html {overflow-y: scroll;}   
+/* css common */  
+.clearfix:after {content: "."; display: block; height:0; clear:both; visibility: hidden;}   
+.clearfix { *zoom:1; }  
+ li{
+	margin:0;
+	padding:0;
+	border:0;
+	list-style:none;
+	}
+body{
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+	font-size: 14px;
+    line-height: 1.42857;
+	
+	}
+.title{
+	background-color: #d8d8d8;
+    background-image: linear-gradient(to bottom, #fff, #d8d8d8 60%);
+    color: #3c424e;
+    text-align: center;
+	overflow:hidden;
+	}
+.color{
+	padding:48px 0;
+	font-size:14px;
+	margin-bottom:0;
+	border:0;
+	border-radius:0;
+	font-weight:400;
+	background:#474f5f;
+	}
+.color1{
+	color:#FFF;
+	}
+.left-imgs{
+	margin-left:20.8%;
+	}
+.right-text{
+	margin-left:69%;
+	margin-top:7px;
+	font-size:16px;
+    font-weight: 500;
+	}
+.logo{
+	width:70px;
+	height:70px;
+	margin-right:18px;
+	float:left;
+	}
+.logotype{
+	margin-top:18px;
+	float:left;
+	}
+.top{
+	color:#FFF !important;
+	border-bottom:2px solid #5cd8a4;
+	}
+.bottom{
+	color:#5cd8a4 !important;
+	margin-left:10px;
+	}
+.bottom:hover{
+	border-bottom:2px solid #5cd8a4;
+	}
+/*头部结束*/
+/*中心内容开始*/
+.terms{
+	padding:236px 0 100px;
+	background-color:#fff;
+	color:#3c424e;
+	}
+@media (min-width: 992px)
+.col-md-offset-1 {
+    margin-left: 8.33333%;
+}
+@media (min-width: 992px)
+.col-md-10 {
+    width: 83.33333%;
+}
+.terms h1{
+	margin:0 0 21px;
+	font-size:60px;
+	text-align:center;
+	font-family:"宋体";
+    font-weight: 300
+	}
+/*中心内容结束*/
+/*底部开始*/
+footer{
+	background-color:#474f5f;
+	padding:50px 0;
+	color:#fff;
+	border-top:1px solid #5cd8a4;
+	font-size:14px;
+	font-weight:400;
+	}
+footer ul{
+	display:flex;
+	text-align:right;
+	}
+footer ul li{
+	font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 1.42857;
+	color: #fff;
+	margin-left:20px;
+	letter-spacing:2px;
+	}
+footer ul li>a{
+	color:#fff !important;
+	}
+/*底部结束*/
+
