@@ -1,0 +1,104 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content=" width=device-width, minimum-scale=1.0,maximum-scale=1.0"/>
+<title>SUPPORT</title>
+<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+<link rel="stylesheet" type="text/css" href="css/support.css">
+<script src="js/jquery-3.2.0.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+</head>
+
+<body class="product">
+<!--头部开始-->
+<section class="title">
+        <nav class="navbar navbar-default navbar-fixed-top color">
+            <div class="navbar-header left-imgs">
+                <button type="button" class="navbar-toggle color1" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="bs.html">
+                <img class="logo" alt="logo" src="imgs/logo.png">
+                <img class="logotype" alt="Scapbox" src="imgs/scrapbox_white.svg">
+                </a>
+            </div>
+            
+            <div class="navbar-collapse collapse navbar-responsive-collapse right-text">
+                <ul class="nav navbar-nav">
+                    <li><a href="support.html" class="item top">SUPPORT</a></li>
+                    <li><a href="" class="item bottom">LOG IN</a></li>
+                </ul>
+            </div>
+        </nav>
+</section>
+<!--头部结束-->
+<!--中心内容开始-->
+<div class="text">
+	<div class="container">
+    	<div class="tt-top">Support</div>
+        <div class="row">
+        	<div class="col-md-10 col-md-offset-1">
+            	<p class="lead tt-text">
+                To expedite your request, please tell us as much information as you can, especially if you’re having a problem.       
+                Important information to include: your operating system, your browser type, any steps you have taken, and any error messages or codes from Scrapbox or your browser.
+				</p>
+                <form method="post">
+                	<div class="row">
+                    	<div class="col-md-6">
+                        	<div class="form-group tt-int">
+                            	<input type="email" required name="email" class="form-control input-lg" placeholder="Your email address">
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                        	<div class="form-group tt-int">
+                            	<select class="form-control input-lg tt-bord" name="category">
+                                	<option value="Not selected">Choose Sategory</option>
+                                    <option value="General">General</option>
+                                    <option value="Subscription">Subscription</option>
+                                    <option value="Enterprise">Enterprise</option>
+                                    <option value="Business development">Business development</option>
+                                    <option value="Media inquiries">Media inquiries</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group tt-int">
+                    	<textarea class="form-control tt-tex" required name="message" rows="5" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="row">
+                    	<div class="col-md-6">
+                        	<p class="help-block tt-col">All Fields are mandatory.</p>
+                        </div>
+                        <div class="col-md-6 col-submit">
+                        	<input type="hidden" name="-csrf" value="Mdh8mjP3-BweNzM9sRVvpcvNKnd8qaAkJuNc">
+                            <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--中心内容结束-->
+<!--底部开始-->
+<footer>
+	<div class="container">
+    	<div class="row">
+        	<div class="col-md-6">© 2017 Nota Inc.</div>
+            <div class="col-md-6">
+            	<ul>
+                	<li><a href="support.html">SUPPORT</a></li>
+                    <li><a href="about us.html">ABOUT US</a></li>
+                    <li><a href="privacy.html">PRIVACY</a></li>
+                    <li>ENGLISH</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</footer>
+<!--底部结束-->
+</body>
+</html>
